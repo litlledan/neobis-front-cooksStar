@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: rgb(235, 233, 238);
+    width: 100px;
+    height: 710px;
+}
+
+.header img {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.header p {
+    border: 1px solid rgb(163, 155, 155);
+    width: 70px;
+    margin-left: 10px;
+}
+.nav {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+.footer {
+    margin-top: 240px !important;
+}
+
+.homeLink svg:active {
+    background-color: #FA9E31;
+}
